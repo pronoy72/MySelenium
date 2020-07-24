@@ -13,6 +13,7 @@ public class StartSelenium {
 		System.setProperty("webdriver.chrome.driver",".\\Driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
+		//comment
 	}
 
 }
